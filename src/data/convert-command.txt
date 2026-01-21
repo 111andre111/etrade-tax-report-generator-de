@@ -11,6 +11,7 @@ https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Steuer
 https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Steuerarten/Umsatzsteuer/Umsatzsteuer-Umrechnungskurse/2024-02-02-umsatzsteuer-umrechnungskurse-2023.pdf
 https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Steuerarten/Umsatzsteuer/Umsatzsteuer-Umrechnungskurse/2025-02-03-umsatzsteuer-umrechnungskurse-2024.pdf
 https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Steuerarten/Umsatzsteuer/Umsatzsteuer-Umrechnungskurse/2025-06-02-umsatzsteuer-umrechnungskurse-2025.html
+https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Steuerarten/Umsatzsteuer/Umsatzsteuer-Umrechnungskurse/2026-01-02-umsatzsteuer-umrechnungskurse-2025.html
 
 extracted tables using AI with this prompt:
 This PDF contains a table with following table headers:
