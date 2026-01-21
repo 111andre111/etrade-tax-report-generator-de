@@ -23,7 +23,7 @@ let machineActor: ActionArgs<
 > | null = null;
 
 const initialContext = {
-  taxYear: "2024",
+  taxYear: "2025",
 };
 export const etradeAppStateMachine = setup({
   actors: {
