@@ -1,5 +1,6 @@
 import { read, utils } from "xlsx";
 import { EnrichedSale, Result, Row, TaxYear } from "../types";
+import exchangeRates2025 from "../data/exchange_rates_2025.json";
 import exchangeRates2024 from "../data/exchange_rates_2024.json";
 import exchangeRates2023 from "../data/exchange_rates_2023.json";
 import exchangeRates2022 from "../data/exchange_rates_2022.json";
@@ -14,6 +15,7 @@ const exchangeRates: Record<TaxYear, Record<string, number>> = {
   "2022": exchangeRates2022,
   "2023": exchangeRates2023,
   "2024": exchangeRates2024,
+  "2025": exchangeRates2025,
 };
 
 export async function parseXlsx({

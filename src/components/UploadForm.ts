@@ -41,6 +41,7 @@ export function UploadForm({
                 (event.target as HTMLSelectElement).value as TaxYear
               )}
           >
+            <option>2025</option>
             <option>2024</option>
             <option>2023</option>
             <option>2022</option>
