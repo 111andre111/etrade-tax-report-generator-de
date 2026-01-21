@@ -13,14 +13,14 @@ https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Steuer
 https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Steuerarten/Umsatzsteuer/Umsatzsteuer-Umrechnungskurse/2025-06-02-umsatzsteuer-umrechnungskurse-2025.html
 
 extracted tables using AI with this prompt:
-Dieses PDF enthält eine Tabelle mit dem Tabellenkopf:
+This PDF contains a table with following table headers:
 Land
 Währung
 Januar
 Februar
 <andere Monate>
 
-Bitte nur die Tabelle als quoted CSV extrahieren.
+Please only extract the table as quoted CSV.
 
 
 Then converted the files using this command e.g.:
