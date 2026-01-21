@@ -1,4 +1,11 @@
-export type TaxYear = "2019" | "2020" | "2021" | "2022" | "2023" | "2024" | "2025";
+export type TaxYear =
+  | "2019"
+  | "2020"
+  | "2021"
+  | "2022"
+  | "2023"
+  | "2024"
+  | "2025";
 
 export type Sale = {
   "Record Type": "Sell";
@@ -8,6 +15,7 @@ export type Sale = {
    */
   "Date Sold": string;
   "Adjusted Gain/Loss": number;
+  "Adjusted Gain/Loss Per Share": number;
   "Qty.": number;
 };
 export type Summary = {

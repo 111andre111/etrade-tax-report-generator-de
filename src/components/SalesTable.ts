@@ -19,14 +19,14 @@ export function SalesTable({ sales }: Result) {
         (sale) => html`
           <tr>
             <td>${sale["Date Sold"]}</td>
-            <td>${sale["Quantity"]}</td>
-            <td>$ ${sale["Adjusted Gain (Loss) Per Share"].toFixed(2)}</td>
+            <td>${sale["Qty."]}</td>
+            <td>$ ${sale["Adjusted Gain/Loss Per Share"].toFixed(2)}</td>
             <td>$ ${sale["Adjusted Gain/Loss"].toFixed(2)}</td>
             <td>${sale["Adjusted Gain/Loss (EUR)"].toFixed(2)}€</td>
             <td>${sale["Exchange Rate"]}</td>
             <td>${sale["Order Type"]}</td>
           </tr>
-        `
+        `,
       )}
     </div>
   `;
