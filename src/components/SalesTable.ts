@@ -20,7 +20,7 @@ export function SalesTable({ sales }: Result) {
           <tr>
             <td>${sale["Date Sold"]}</td>
             <td>${sale["Qty."]}</td>
-            <td>$ ${sale["Adjusted Gain/Loss Per Share"].toFixed(2)}</td>
+            <td>$ ${sale["Adjusted Gain (Loss) Per Share"].toFixed(2)}</td>
             <td>$ ${sale["Adjusted Gain/Loss"].toFixed(2)}</td>
             <td>${sale["Adjusted Gain/Loss (EUR)"].toFixed(2)}€</td>
             <td>${sale["Exchange Rate"]}</td>

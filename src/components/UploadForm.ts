@@ -38,7 +38,7 @@ export function UploadForm({
             id="tax-year"
             @change=${(event: Event) =>
               onTaxYearSelected(
-                (event.target as HTMLSelectElement).value as TaxYear
+                (event.target as HTMLSelectElement).value as TaxYear,
               )}
           >
             <option>2025</option>

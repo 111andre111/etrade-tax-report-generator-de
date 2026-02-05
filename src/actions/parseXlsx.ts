@@ -42,10 +42,13 @@ export async function parseXlsx({
     const result: Result = sales.reduce<Result>(
       (res, currSale) => {
         const exchangeRate = selectedRates[currSale["Date Sold"]];
+        const monthOfSale = currSale["Date Sold"].match(/^(0?)(\d{1,2})/);
+
+        console.log(monthOfSale);
         if (!exchangeRate) {
           throw new Error(
             `Could not find an exchange rate for ${currSale["Date Sold"]}.
-            Did you select the correct tax year?`
+            Did you select the correct tax year?`,
           );
         }
         // Enrich the sale with exchange rate
@@ -88,7 +91,7 @@ export async function parseXlsx({
             lossesEuro: 0,
           },
         },
-      }
+      },
     );
     console.info("Parsed result", result);
     return result;

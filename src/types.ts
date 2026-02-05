@@ -15,7 +15,7 @@ export type Sale = {
    */
   "Date Sold": string;
   "Adjusted Gain/Loss": number;
-  "Adjusted Gain/Loss Per Share": number;
+  "Adjusted Gain (Loss) Per Share": number;
   "Qty.": number;
 };
 export type Summary = {

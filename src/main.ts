@@ -26,7 +26,7 @@ actor.subscribe((state) => {
           onTaxYearSelected: sendTaxYearSelected,
           taxYear: state.context.taxYear,
         }),
-        appContainer
+        appContainer,
       );
     case "parsing":
       return render("parsing...", appContainer);
@@ -37,7 +37,7 @@ actor.subscribe((state) => {
     case "error":
       return render(
         ErrorView({ error: state.context.error, onReset: sendReset }),
-        appContainer
+        appContainer,
       );
   }
 });
